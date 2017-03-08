@@ -1,0 +1,30 @@
+﻿Построение начато 25.01.2017 20:05:32.
+     1>Проект "F:\УЧЁБА\ДНУ ФПМ\ПМ-14-.. 3 курс\V семестр\Прога(С++)\Cisco\GlushchukRoman._Proga_C++._miniLabsOfCisco\Labs_Chapter4\Labs_Chapter4.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         F:\ФАЙЛЫ\Visual Studio 2012 Ultimate\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "cpa_lab_4_2_5_(1)-A.cpp" "cpa_lab_4_5_7_(6)-B.cpp"
+         cpa_lab_4_5_7_(6)-B.cpp
+     1>f:\учёба\дну фпм\пм-14-.. 3 курс\v семестр\прога(с++)\cisco\glushchukroman._proga_c++._minilabsofcisco\labs_chapter4\cpa_lab_4_5_7_(6)-b.cpp(13): warning C4018: <: несоответствие типов со знаком и без знака
+         cpa_lab_4_2_5_(1)-A.cpp
+         Создание кода...
+       Link:
+         F:\ФАЙЛЫ\Visual Studio 2012 Ultimate\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\УЧЁБА\ДНУ ФПМ\ПМ-14-.. 3 курс\V семестр\Прога(С++)\Cisco\GlushchukRoman._Proga_C++._miniLabsOfCisco\Debug\Labs_Chapter4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\УЧЁБА\ДНУ ФПМ\ПМ-14-.. 3 курс\V семестр\Прога(С++)\Cisco\GlushchukRoman._Proga_C++._miniLabsOfCisco\Debug\Labs_Chapter4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\УЧЁБА\ДНУ ФПМ\ПМ-14-.. 3 курс\V семестр\Прога(С++)\Cisco\GlushchukRoman._Proga_C++._miniLabsOfCisco\Debug\Labs_Chapter4.lib" /MACHINE:X86 "Debug\cpa_lab_4_1_9_(1)-B.obj"
+         "Debug\cpa_lab_4_2_5_(1)-A.obj"
+         "Debug\cpa_lab_4_2_7_(1)-A.obj"
+         "Debug\cpa_lab_4_4_1_(1)-B.obj"
+         "Debug\cpa_lab_4_5_2_(1)-B.obj"
+         "Debug\cpa_lab_4_5_6_(1)-B.obj"
+         "Debug\cpa_lab_4_5_7_(1)-A.obj"
+         "Debug\cpa_lab_4_5_7_(2)-B.obj"
+         "Debug\cpa_lab_4_5_7_(3)-B.obj"
+         "Debug\cpa_lab_4_5_7_(4)-A.obj"
+         "Debug\cpa_lab_4_5_7_(5)-B.obj"
+         "Debug\cpa_lab_4_5_7_(6)-B.obj"
+         "Debug\cpa_lab_4_5_7_(7)-B.obj"
+         "Debug\cpa_lab_4_5_7_(8)-B.obj"
+         Debug\Main.obj
+         Labs_Chapter4.vcxproj -> F:\УЧЁБА\ДНУ ФПМ\ПМ-14-.. 3 курс\V семестр\Прога(С++)\Cisco\GlushchukRoman._Proga_C++._miniLabsOfCisco\Debug\Labs_Chapter4.exe
+     1>Построение проекта "F:\УЧЁБА\ДНУ ФПМ\ПМ-14-.. 3 курс\V семестр\Прога(С++)\Cisco\GlushchukRoman._Proga_C++._miniLabsOfCisco\Labs_Chapter4\Labs_Chapter4.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:17.92
