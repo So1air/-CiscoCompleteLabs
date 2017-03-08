@@ -1,5 +1,4 @@
 #include <iostream>
-#include "RunMethodsOfLabsOfChapter4.h"
 #include <string>
 
 using namespace std;
