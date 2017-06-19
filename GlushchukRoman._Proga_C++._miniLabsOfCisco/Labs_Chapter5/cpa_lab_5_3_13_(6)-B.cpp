@@ -45,7 +45,7 @@ namespace LinkedLists {
 	}
 
 	bool List::remove_at(int index) {
-		if (head)
+		if (head && index >= 0)
 		{
 			Node* rem;
 			if (index == 0)

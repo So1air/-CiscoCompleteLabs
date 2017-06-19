@@ -106,6 +106,7 @@
     <ClCompile Include="StringSplit.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DoublyLinkedList.h" />
     <ClInclude Include="FarmAnimals.h" />
     <ClInclude Include="FlightBooking.h" />
     <ClInclude Include="Fraction.h" />

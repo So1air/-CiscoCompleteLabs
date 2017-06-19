@@ -1,17 +1,12 @@
-﻿Построение начато 19.06.2017 4:10:31.
+﻿Построение начато 19.06.2017 19:58:18.
      1>Проект "E:\Git Local Repo\-CiscoCompleteLabs\GlushchukRoman._Proga_C++._miniLabsOfCisco\Labs_Chapter5\Labs_Chapter5.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         F:\ФАЙЛЫ\Visual Studio 2012 Ultimate\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp "cpa_lab_5_3_13_(1)-B.cpp" "cpa_lab_5_3_13_(2)-B.cpp" "cpa_lab_5_3_13_(3)-A.cpp" "cpa_lab_5_3_13_(4)-B.cpp" "cpa_lab_5_3_13_(5)-B.cpp" "cpa_lab_5_3_13_(6)-B.cpp" "cpa_lab_5_3_13_(7)-B.cpp"
-         cpa_lab_5_3_13_(1)-B.cpp
-         Создание кода...
-         Компиляция...
-         cpa_lab_5_3_13_(7)-B.cpp
-         cpa_lab_5_3_13_(6)-B.cpp
-     1>e:\git local repo\-ciscocompletelabs\glushchukroman._proga_c++._minilabsofcisco\labs_chapter5\cpa_lab_5_3_13_(6)-b.cpp(7): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
-         cpa_lab_5_3_13_(5)-B.cpp
-         cpa_lab_5_3_13_(4)-B.cpp
-         cpa_lab_5_3_13_(3)-A.cpp
-         cpa_lab_5_3_13_(2)-B.cpp
+         F:\ФАЙЛЫ\Visual Studio 2012 Ultimate\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp "cpa_lab_5_3_13_(8)-C.cpp"
+         cpa_lab_5_3_13_(8)-C.cpp
+     1>e:\git local repo\-ciscocompletelabs\glushchukroman._proga_c++._minilabsofcisco\labs_chapter5\cpa_lab_5_3_13_(8)-c.cpp(93): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+     1>e:\git local repo\-ciscocompletelabs\glushchukroman._proga_c++._minilabsofcisco\labs_chapter5\cpa_lab_5_3_13_(8)-c.cpp(98): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>e:\git local repo\-ciscocompletelabs\glushchukroman._proga_c++._minilabsofcisco\labs_chapter5\cpa_lab_5_3_13_(8)-c.cpp(112): warning C4018: >: несоответствие типов со знаком и без знака
+     1>e:\git local repo\-ciscocompletelabs\glushchukroman._proga_c++._minilabsofcisco\labs_chapter5\cpa_lab_5_3_13_(8)-c.cpp(135): warning C4018: <: несоответствие типов со знаком и без знака
          Создание кода...
          Пропуск... (изменения не обнаружены)
          Main.cpp
@@ -47,4 +42,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:08.25
+Затраченное время: 00:00:06.09
