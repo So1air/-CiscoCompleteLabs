@@ -1,0 +1,50 @@
+﻿Построение начато 19.06.2017 4:10:31.
+     1>Проект "E:\Git Local Repo\-CiscoCompleteLabs\GlushchukRoman._Proga_C++._miniLabsOfCisco\Labs_Chapter5\Labs_Chapter5.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         F:\ФАЙЛЫ\Visual Studio 2012 Ultimate\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp "cpa_lab_5_3_13_(1)-B.cpp" "cpa_lab_5_3_13_(2)-B.cpp" "cpa_lab_5_3_13_(3)-A.cpp" "cpa_lab_5_3_13_(4)-B.cpp" "cpa_lab_5_3_13_(5)-B.cpp" "cpa_lab_5_3_13_(6)-B.cpp" "cpa_lab_5_3_13_(7)-B.cpp"
+         cpa_lab_5_3_13_(1)-B.cpp
+         Создание кода...
+         Компиляция...
+         cpa_lab_5_3_13_(7)-B.cpp
+         cpa_lab_5_3_13_(6)-B.cpp
+     1>e:\git local repo\-ciscocompletelabs\glushchukroman._proga_c++._minilabsofcisco\labs_chapter5\cpa_lab_5_3_13_(6)-b.cpp(7): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+         cpa_lab_5_3_13_(5)-B.cpp
+         cpa_lab_5_3_13_(4)-B.cpp
+         cpa_lab_5_3_13_(3)-A.cpp
+         cpa_lab_5_3_13_(2)-B.cpp
+         Создание кода...
+         Пропуск... (изменения не обнаружены)
+         Main.cpp
+       Link:
+         F:\ФАЙЛЫ\Visual Studio 2012 Ultimate\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Git Local Repo\-CiscoCompleteLabs\GlushchukRoman._Proga_C++._miniLabsOfCisco\Debug\Labs_Chapter5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Git Local Repo\-CiscoCompleteLabs\GlushchukRoman._Proga_C++._miniLabsOfCisco\Debug\Labs_Chapter5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Git Local Repo\-CiscoCompleteLabs\GlushchukRoman._Proga_C++._miniLabsOfCisco\Debug\Labs_Chapter5.lib" /MACHINE:X86 "Debug\cpa_lab_5_1_9_(1)-A.obj"
+         "Debug\cpa_lab_5_1_9_(2)-A.obj"
+         "Debug\cpa_lab_5_1_9_(3)-B.obj"
+         "Debug\cpa_lab_5_1_9_(4)-B.obj"
+         "Debug\cpa_lab_5_3_10_(1)-B.obj"
+         "Debug\cpa_lab_5_3_10_(10)-B.obj"
+         "Debug\cpa_lab_5_3_10_(11)-B.obj"
+         "Debug\cpa_lab_5_3_10_(12)-B.obj"
+         "Debug\cpa_lab_5_3_10_(2)-B.obj"
+         "Debug\cpa_lab_5_3_10_(3)-C.obj"
+         "Debug\cpa_lab_5_3_10_(4)-C.obj"
+         "Debug\cpa_lab_5_3_10_(5)-C.obj"
+         "Debug\cpa_lab_5_3_10_(6)-B.obj"
+         "Debug\cpa_lab_5_3_10_(7)-B.obj"
+         "Debug\cpa_lab_5_3_10_(8)-A.obj"
+         "Debug\cpa_lab_5_3_10_(9)-B.obj"
+         "Debug\cpa_lab_5_3_13_(1)-B.obj"
+         "Debug\cpa_lab_5_3_13_(2)-B.obj"
+         "Debug\cpa_lab_5_3_13_(3)-A.obj"
+         "Debug\cpa_lab_5_3_13_(4)-B.obj"
+         "Debug\cpa_lab_5_3_13_(5)-B.obj"
+         "Debug\cpa_lab_5_3_13_(6)-B.obj"
+         "Debug\cpa_lab_5_3_13_(7)-B.obj"
+         "Debug\cpa_lab_5_3_13_(8)-C.obj"
+         Debug\Main.obj
+         Debug\StringSplit.obj
+         Labs_Chapter5.vcxproj -> E:\Git Local Repo\-CiscoCompleteLabs\GlushchukRoman._Proga_C++._miniLabsOfCisco\Debug\Labs_Chapter5.exe
+     1>Построение проекта "E:\Git Local Repo\-CiscoCompleteLabs\GlushchukRoman._Proga_C++._miniLabsOfCisco\Labs_Chapter5\Labs_Chapter5.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:08.25

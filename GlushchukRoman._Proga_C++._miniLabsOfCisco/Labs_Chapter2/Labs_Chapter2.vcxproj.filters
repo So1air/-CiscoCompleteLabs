@@ -95,5 +95,8 @@
     <ClInclude Include="Allfunc.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="..\Labs_Chapter5\FlightBooking.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

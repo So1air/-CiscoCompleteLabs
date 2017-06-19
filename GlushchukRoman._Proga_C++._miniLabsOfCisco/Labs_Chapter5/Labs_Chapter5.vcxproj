@@ -103,9 +103,18 @@
     <ClCompile Include="cpa_lab_5_3_13_(7)-B.cpp" />
     <ClCompile Include="cpa_lab_5_3_13_(8)-C.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="StringSplit.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FarmAnimals.h" />
+    <ClInclude Include="FlightBooking.h" />
+    <ClInclude Include="Fraction.h" />
+    <ClInclude Include="Line2D.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Point2D.h" />
     <ClInclude Include="RunMethodsOfLabsOfChapter5.h" />
+    <ClInclude Include="StringSplit.h" />
+    <ClInclude Include="Member.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(void){
+int main(void) {
 	int index_lab;
 	while (true)
 	{
@@ -39,6 +39,8 @@ int main(void){
 
 		switch (index_lab)
 		{
+		case 0:
+			exit(0);
 		case 1:
 			cout << "Lab 5.1.1 Classes and Objects in C++" << endl; //cpa_lab_5_1_9_(1)-A
 			Go1();
