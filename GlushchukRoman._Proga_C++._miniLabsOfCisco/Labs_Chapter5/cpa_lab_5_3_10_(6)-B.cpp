@@ -6,19 +6,19 @@
 
 namespace ModellingFractions {
 	//helpful methods
-	int Fraction::LCM(int x, int y) {		
+	long long Fraction::LCM(long long x, long long y) {		
 		if (abs(x) == abs(y))
 			return abs(x);
-		int l, h, h0 = h = (abs(x) > abs(y)) ? (l = abs(y), abs(x)) : (l = abs(x), abs(y));
+		long long l, h, h0 = h = (abs(x) > abs(y)) ? (l = abs(y), abs(x)) : (l = abs(x), abs(y));
 
 		while(h % l)
 			h += h0;
 		return h;
 	}
-	int Fraction::GCD(int x, int y) {
+	long long Fraction::GCD(long long x, long long y) {
 		if (abs(x) == abs(y))
 			return abs(x);
-		int l, h = (abs(x) > abs(y)) ? (l = abs(y), abs(x)) : (l = abs(x), abs(y));		
+		long long l, h = (abs(x) > abs(y)) ? (l = abs(y), abs(x)) : (l = abs(x), abs(y));		
 		for(;;)  {
 			h %= l;
 			if(!h)
@@ -30,15 +30,15 @@ namespace ModellingFractions {
 	}
 	void Fraction::reduce() 
 	{
-		int gcd = GCD(abs(this->numerator), this->denominator);
+		long long gcd = GCD(abs(this->numerator), this->denominator);
 		this->numerator /= gcd;
 		this->denominator /= gcd;
 	}
 
 	Fraction Fraction::times(Fraction that)
 	{
-		int num = this->numerator * that.numerator;
-		int den = this->denominator * that.denominator;
+		long long num = this->numerator * that.numerator;
+		long long den = this->denominator * that.denominator;
 		Fraction result(num, den);
 		// we could call result.reduce() here
 		result.reduce();
@@ -58,7 +58,7 @@ namespace ModellingFractions {
 
 	Fraction Fraction::plus(Fraction that)
 	{			
-		int lcm = LCM(this->denominator, that.denominator);
+		long long lcm = LCM(this->denominator, that.denominator);
 		Fraction result(this->numerator * (lcm / this->denominator) + that.numerator * (lcm / that.denominator), lcm);	
 		result.reduce();
 		return result;
@@ -73,7 +73,7 @@ namespace ModellingFractions {
 using namespace ModellingFractions;
 
 int Go10(void){
-	int num, den;
+	long long num, den;
 	vector<string> text_fraction;
 	string input = "";
 	cin.ignore();
@@ -83,15 +83,15 @@ int Go10(void){
 			printf("Input fraction1:\n");
 			getline(cin, input);
 			text_fraction = split(input);
-			num = stoi(text_fraction[0]);
-			den = stoi(text_fraction[2]);
+			num = stoll(text_fraction[0]);
+			den = stoll(text_fraction[2]);
 			Fraction fraction1(num, den);
 
 			printf("Input fraction2:\n");
 			getline(cin, input);
 			text_fraction = split(input);
-			num = stoi(text_fraction[0]);
-			den = stoi(text_fraction[2]);
+			num = stoll(text_fraction[0]);
+			den = stoll(text_fraction[2]);
 			Fraction fraction2(num, den);
 			printf ("\nOperations:\n");
 			printf ("    %s + %s = %s\n", fraction1.toString().c_str(), fraction2.toString().c_str(), fraction1.plus(fraction2).toString().c_str());

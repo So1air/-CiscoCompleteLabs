@@ -5,17 +5,17 @@
 namespace ModellingFractions {
 	//comparision of two fractions
 	bool Fraction::isGreaterThan(Fraction that) {
-		int lcm = LCM(this->denominator, that.denominator);
+		long long lcm = LCM(this->denominator, that.denominator);
 		return (this->numerator * (lcm / this->denominator)) > (that.numerator * (lcm / that.denominator));
 	}
 
 	bool Fraction::isLessThan(Fraction that) {
-		int lcm = LCM(this->denominator, that.denominator);
+		long long lcm = LCM(this->denominator, that.denominator);
 		return (this->numerator * (lcm / this->denominator)) < that.numerator * (lcm / that.denominator);
 	}
 	
 	bool Fraction::isEqual(Fraction that) {
-		int lcm = LCM(this->denominator, that.denominator);
+		long long lcm = LCM(this->denominator, that.denominator);
 		return (this->numerator * (lcm / this->denominator)) == (that.numerator * (lcm / that.denominator));
 	}
 }
@@ -23,7 +23,7 @@ namespace ModellingFractions {
 using namespace ModellingFractions;
 
 int Go11(void){
-	int num, den;
+	long long num, den;
 	vector<string> text_fraction;
 	string input = "";
 	cin.ignore();
@@ -33,15 +33,15 @@ int Go11(void){
 			printf("Input fraction1:\n");
 			getline(cin, input);
 			text_fraction = split(input);
-			num = stoi(text_fraction[0]);
-			den = stoi(text_fraction[2]);
+			num = stoll(text_fraction[0]);
+			den = stoll(text_fraction[2]);
 			Fraction fraction1(num, den);
 
 			printf("Input fraction2:\n");
 			getline(cin, input);
 			text_fraction = split(input);
-			num = stoi(text_fraction[0]);
-			den = stoi(text_fraction[2]);
+			num = stoll(text_fraction[0]);
+			den = stoll(text_fraction[2]);
 			Fraction fraction2(num, den);
 			printf ("\nResult of comparision:\n");
 			if (fraction1.isGreaterThan(fraction2))

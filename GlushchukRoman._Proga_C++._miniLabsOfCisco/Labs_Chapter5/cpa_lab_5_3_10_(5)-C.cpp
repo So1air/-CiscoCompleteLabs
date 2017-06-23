@@ -7,7 +7,7 @@
 namespace ModellingFractions {
 
 	// implement Fraction methods
-	Fraction::Fraction(int numerator, int denominator): numerator(numerator), denominator(1) {
+	Fraction::Fraction(long long numerator, long long denominator): numerator(numerator), denominator(1) {
 		if(denominator != 0) {
 			if (denominator < 0) {
 				this->numerator = - this->numerator;
@@ -34,7 +34,7 @@ namespace ModellingFractions {
 using namespace ModellingFractions;
 
 int Go9(void){
-	int num, den;
+	long long num, den;
 	string input = "";
 	cin.ignore();
 	while (input != "q") {
@@ -45,8 +45,8 @@ int Go9(void){
 		vector<string> text_fraction = split(input);
 		try 
 		{
-			num = stoi(text_fraction[0]);
-			den = stoi(text_fraction[2]);
+			num = stoll(text_fraction[0]);
+			den = stoll(text_fraction[2]);
 			Fraction fraction(num, den);
 			cout << fraction.toString() << " is " << fraction.toDouble() << " in decimal" << endl;
 		}

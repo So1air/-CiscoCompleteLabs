@@ -6,12 +6,12 @@ using namespace std;
 namespace ModellingFractions {
 	class Fraction {	
 	private:
-		int numerator;
-		int denominator;
+		long long numerator;
+		long long denominator;
 		void reduce();
 		
 	public:
-		Fraction(int numerator, int denominator);
+		Fraction(long long numerator, long long denominator);
 		string toString();
 		double toDouble();
 		// the functions below do not change the object
@@ -26,8 +26,8 @@ namespace ModellingFractions {
 		bool isEqual(Fraction that);
 		
 		//helpful methods
-		int static LCM(int x, int y);
-		int static GCD(int x, int y);
+		long long static LCM(long long x, long long y);
+		long long static GCD(long long x, long long y);
 	};
 
 }
