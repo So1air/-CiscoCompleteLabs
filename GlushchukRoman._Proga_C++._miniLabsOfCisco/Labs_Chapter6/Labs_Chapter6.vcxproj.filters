@@ -56,5 +56,8 @@
     <ClInclude Include="RunMethodsOfLabsOfChapter%28template%29.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="StringValidators.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
